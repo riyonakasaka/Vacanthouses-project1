@@ -3,9 +3,6 @@ var config = {
     accessToken: 'pk.eyJ1Ijoicml5b25ha2FzYWthIiwiYSI6ImNseGRpNWp0NTA1d2Eya3BycGd6bmg0aGQifQ.P5j-tPs9UqJYNfC2VnMtUw',
     showMarkers: false,
     markerColor: '#3FB1CE',
-    //projection: 'equirectangular',
-    //Read more about available projections here
-    //https://docs.mapbox.com/mapbox-gl-js/example/projections/
     inset: false,
     theme: 'dark',
     use3dTerrain: false, //set true for enabling 3D maps.
@@ -13,7 +10,7 @@ var config = {
     title: 'Japan Faces Growing Issue of Vacant Houses',
     subtitle: 'Based on Data Released by the Ministry of Internal Affairs and Communications in April 2024',
     byline: 'Riyo Nakasaka',
-    footer: ' <br> Here is the Github link  <a href="https://github.com/riyonakasaka" target="_blank">Riyo Nakasaka</a>',
+    footer: ' <br> <a href="https://github.com/riyonakasaka" target="_blank">Here is the link to Github page </a>',
     chapters: [
         {
             id: 'slug-style-id',
