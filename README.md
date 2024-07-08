@@ -23,20 +23,22 @@ To clearly convey the current status of vacant houses in Japan using data releas
 3.Download Prefectural GeoJSON Data: Acquisition of geojson files for Japanese prefectures, used for spatial analysis and visualization.(https://japonyol.net/editor/article/47-prefectures-geojson.html)
 
 ## Data Analysis Process
-1.Housing and Vacancy Data from MIC: Extracts the number of households and vacant houses for each prefecture from the Ministry of Internal Affairs and Communications (MIC) data. It calculates the proportions and sorts them in descending order based on these values. Subsequently, it prepares the geojson files of prefectures using geopandas for editing in QGIS.
+1.Extracts the number of households and vacant houses for each prefecture from the Ministry of Internal Affairs and Communications (MIC) data. It calculates the proportions and sorts them in descending order based on these values. Subsequently, it prepares the geojson files of prefectures using geopandas for editing in QGIS.
 
-2.Aging Rate Tables from Cabinet Office: Utilizes web scraping to collect aging rate tables from the Cabinet Office's website. The data is structured into a DataFrame, sorted in descending order based on the values, and visualized in charts.
+2.Utilizes web scraping to collect aging rate tables from the Cabinet Office's website. The data is structured into a DataFrame, sorted in descending order based on the values, and visualized in charts.
 
 ## New Skills and Growth
+1.Utilized geopandas to integrate geographical information into pandas and performed filtering operations in QGIS.
+
+2.Due to technical issues with the computer, missed using QGIS during mapping classes. Subsequently reviewed the course materials to regain proficiency in using QGIS.
+
+3.Created image collages using Adobe Illustrator.
 
 ## Future Work
+1.The dataset used in this project encompassed data from Japan's 47 prefectures, limiting the breadth of analysis. Future iterations aim to analyze more extensive datasets.
 
-## About this repository
+2.Some charts lacked simplicity and omitted subtitles. Future efforts will prioritize creating clear and detailed charts.
 
-### index HTML
-[index HTML]() 
-### jupyter notebook
-[code 1]() -  
-### data 
-[main data]() 
-<br>
+3.Enhancing Interactive Maps: There is a desire to incorporate map interactions via scrolling to enhance user experience and data exploration.
+
+
