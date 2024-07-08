@@ -22,16 +22,10 @@ To clearly convey the current status of vacant houses in Japan using data releas
 
 3.Download Prefectural GeoJSON Data: Acquisition of geojson files for Japanese prefectures, used for spatial analysis and visualization.(https://japonyol.net/editor/article/47-prefectures-geojson.html)
 
-
-
-2. https://japonyol.net/editor/article/47-prefectures-geojson.html
-
-
 ## Data Analysis Process
-to correct
+1.Housing and Vacancy Data from MIC: Extracts the number of households and vacant houses for each prefecture from the Ministry of Internal Affairs and Communications (MIC) data. It calculates the proportions and sorts them in descending order based on these values. Subsequently, it prepares the geojson files of prefectures using geopandas for editing in QGIS.
 
-
-
+2.Aging Rate Tables from Cabinet Office: Utilizes web scraping to collect aging rate tables from the Cabinet Office's website. The data is structured into a DataFrame, sorted in descending order based on the values, and visualized in charts.
 
 ## New Skills and Growth
 
