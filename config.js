@@ -19,6 +19,7 @@ var config = {
             title: 'Increasing Number of Vacant Houses in Japan',
             description: 'In Japan the number of vacant houses continues to increase due to an aging population. According to data released by the government in April, the number of vacant houses reached 8.99 million in 2023, an increase of 500,000 over the past 5 years. Vacant houses can lead to problems such as deteriorating landscapes and the risk of collapse.',
             image: 'akiyachart.png',
+            altText: 'The chart of the number of vacant houses and the vacancy rate in Japan every 5 years since 1963 shows that both figures have reached record highs each time. In 2023, the number of vacant houses was 9 million, and the vacancy rate was 13.8%.',
             location: {
                 center: [138.75537, 37.65700],
                 zoom: 4.2,
@@ -46,7 +47,7 @@ var config = {
             hidden: false,
             title: 'Tokushima and Wakayama Have the Highest Vacancy Rate',
             image:'Akiyatable.png',
-            altText: 'aa',
+            altText: 'The top 10 prefectures with the highest vacancy rates are displayed. In descending order, they are Tokushima(21%), Wakayama(21%), Yamanashi(20%), Kagoshima(20%), Kochi(20%), Nagano(20%), Ehime(20%), Yamaguchi(19%), Oita(19%), Kagawa(19%).',
             description: '',
             location: {
                 center: [138.75537, 37.65700],
@@ -79,6 +80,7 @@ var config = {
             hidden: false,
             title: 'Top10 Prefectures by Vacancy Rate Also Tend to Rank High in Aging Population Rate',
             image: 'barchart.png',
+            altText: 'This bar chart shows the percentage of the population aged 65 and over in each prefecture. Prefecture with the top 10 highest vacancy rates tend to also have high elderly population rates.',
             description: 'According 2021 report by the Cabinet Office, there is a noticeable trend in Prefectures where a higher proprtion of the population is aged 65 and older. These areas tend to have a higher number of vacannt houses.',
             location: {
                 center: [138.75537, 37.65700],
@@ -142,6 +144,7 @@ var config = {
             hidden: false,
             title: 'Free Transfer Service for Vacant Houses in Wakayama',
             image: 'wakayama0.png',
+            altText: 'This is the homepage image of a matching site(https://tadanoakiya.com) for people who want to transfer and those who want to acquire vacant houses in Wakayama.',
             description: "In Wakayama, which has the second-highest vacancy rate, there are specific initiatives to address the issue of vacant houses. One such initiative is a service that matches people who want to transfer ownership of their vacant houses with those who are interested in acquiring them. The vacant houses are listed at a price of 0 yen, and the website provides photos along with details about the house's size, location, and age.",
             location: {
                 center: [135.06771, 33.86547],
