@@ -9,7 +9,7 @@ var config = {
     auto: false,
     title: 'Japan Faces Growing Issue of Vacant Houses',
     subtitle: 'Based on Data Released by the Ministry of Internal Affairs and Communications in April 2024',
-    byline: 'Riyo Nakasaka',
+    byline: 'by Riyo Nakasaka',
     footer: ' <br> <a href="https://github.com/riyonakasaka/Vacanthouses-project1" target="_blank">Here is the link to Github page </a>',
     chapters: [
         {
