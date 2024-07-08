@@ -35,7 +35,7 @@ To clearly convey the current status of vacant houses in Japan using data releas
 3.Created image collages using Adobe Illustrator.
 
 ## Future Work
-1.The dataset used in this project encompassed data from Japan's 47 prefectures, limiting the breadth of analysis. Future iterations aim to analyze more extensive datasets.
+The dataset used in this project encompassed data from Japan's 47 prefectures, limiting the breadth of analysis. Future iterations aim to analyze more extensive datasets.
 
 Also, Some charts lacked simplicity and omitted subtitles. Future efforts will prioritize creating clear and detailed charts.
 
